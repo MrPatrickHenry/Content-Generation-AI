@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "genesis"
+version = "0.1.0"
+description = "genesis using crewAI"
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+crewai = "0.1.0"
+openai = "0.28.1"
+
+
+[tool.poetry.scripts]
+genesis = "genesis.main:run"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
